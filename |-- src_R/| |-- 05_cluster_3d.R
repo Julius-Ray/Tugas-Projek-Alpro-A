@@ -12,9 +12,9 @@ A<-c(2,1,3)
 B<-c(1,-4,6)
 C<-c(-2,3,-2)
 #input U
-x1<-4
-x2<-2
-x3<-3
+x1<-1
+x2<--4
+x3<-6
 
 U<-c(x1,x2,x3)
 #definisi jarak U ke A, B, C
@@ -53,9 +53,9 @@ A<-c(2,1,3)
 B<-c(1,-4,6)
 C<-c(-2,3,-2)
 #input U
-x1<--3
+x1<-4
 x2<-2
-x3<--2
+x3<-3
 
 U<-c(x1,x2,x3)
 #definisi jarak U ke A, B, C
@@ -93,9 +93,9 @@ A<-c(2,1,3)
 B<-c(1,-4,6)
 C<-c(-2,3,-2)
 #input U
-x1<--3
-x2<--2
-x3<-3
+x1<-1.5
+x2<--1.5
+x3<-4.5
 
 U<-c(x1,x2,x3)
 #definisi jarak U ke A, B, C
