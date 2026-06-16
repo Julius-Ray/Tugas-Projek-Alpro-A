@@ -2,7 +2,7 @@
 #Keadaan 1
 # Program Menghitung Jumlah Kata dan Kalimat
 # Masukkan teks
-teks <- "Media sosial telah menjadi bagian penting dalam kehidupan sehari-hari. Banyak orang menggunakan media sosial untuk berkomunikasi dengan teman dan keluarga. Selain itu, media sosial juga dimanfaatkan untuk mencari informasi dan berbagi pengetahuan. Namun, penggunaan media sosial yang berlebihan dapat mengurangi produktivitas seseorang. Oleh karena itu, pengguna perlu mengatur waktu penggunaan media sosial dengan bijak."
+teks <- "Enaknya jadi anak statistika tuh pas orang lain masih debat " "kira-kira nih hasilnya gimana," " kita udah bisa jawab pake angka, confidence interval, dan p-value. Bukan sombong, cuma emang kita dilatih buat nggak nebak-nebak. Ada bedanya antara opini dan kesimpulan berbasis data — dan kita tau itu sejak semester satu."
 
 # Hitung jumlah kata
 # Pisahkan berdasarkan satu atau lebih spasi
