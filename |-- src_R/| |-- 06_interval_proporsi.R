@@ -48,8 +48,8 @@ interval_proporsi<-function(phat, n, alpha){
   cat("Interval Konfidensi:\n")
   cat("(", bawah, ",", atas, ")\n")
 }
-phat<-0.7
-n <-25
+phat<-1.5
+n <-50
 alpha <- 0.10
 interval_proporsi(phat,n,alpha)
 
