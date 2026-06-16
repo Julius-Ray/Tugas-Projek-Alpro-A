@@ -1,8 +1,41 @@
 #Program 3 Mencari Akar-Akar Persamaan Kuadrat ax^2 + bx + c = 0
+#Kondisi 1
 import math
-a = float(input("Masukan nilai a"))
-b = float(input("Masukan nilai b"))
-c = float(input("Masukan nilai c"))
+a = 1
+b = 4
+c = 4
+d = ( b**2 - 4*a*c)
+if d>0:
+    x1 = (-b + math.sqrt(d))/(2*a)
+    x2 = (-b - math.sqrt(d))/(2*a)
+    print("Akar-akarnya adalah",x1,"dan",x2)
+elif d == 0:
+    x = -b/(2*a)
+    print("Akar-akarnya adalah",x)
+else:
+    print("Persamaan hanya memiliki akar imaginer")
+
+#Kondisi 2
+import math
+a = 2
+b = 3
+c = 6
+d = ( b**2 - 4*a*c)
+if d>0:
+    x1 = (-b + math.sqrt(d))/(2*a)
+    x2 = (-b - math.sqrt(d))/(2*a)
+    print("Akar-akarnya adalah",x1,"dan",x2)
+elif d == 0:
+    x = -b/(2*a)
+    print("Akar-akarnya adalah",x)
+else:
+    print("Persamaan hanya memiliki akar imaginer")
+
+#Kondisi 3
+import math
+a = 1
+b = -5
+c = 6
 d = ( b**2 - 4*a*c)
 if d>0:
     x1 = (-b + math.sqrt(d))/(2*a)
