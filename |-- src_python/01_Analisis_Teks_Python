@@ -1,6 +1,6 @@
 #Program 1 Menghitung banyaknya kata dan banyaknya kalimat
 #Keadaan 1
-teks= """Media sosial atau disebut juga dengan jejaring sosial, seperti Facebook, Twitter, Instagram, dan masih banyak lagi ternyata tidak hanya digunakan sebagai tempat berkumpul atau berbagi di dunia maya. Namun, media sosial kini juga bisa dimanfaatkan sebagai media untuk mengembangkan sebuah bisnis. Saat ini telah banyak para pengusaha yang beralih ke media sosial dalam memasarkan produk mereka baik barang ataupun jasa. Beralihnya para pelaku bisnis ke media ini dikarenakan jejaring sosial memiliki manfaat yang sangat banyak bagi usaha bisnis. Berikut ini adalah alasan mengapa jejaring sosial bisa menjadi alat promosi yang paling efektif."""
+teks= """Enaknya jadi anak statistika tuh pas orang lain masih debat "kira-kira nih hasilnya gimana," kita udah bisa jawab pake angka, confidence interval, dan p-value. Bukan sombong, cuma emang kita dilatih buat nggak nebak-nebak. Ada bedanya antara opini dan kesimpulan berbasis data — dan kita tau itu sejak semester satu."""
 
 banyaknya_kalimat= teks.count('.')
 banyaknya_kata= len(teks.split())
