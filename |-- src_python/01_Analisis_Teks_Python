@@ -1,5 +1,22 @@
 #Program 1 Menghitung banyaknya kata dan banyaknya kalimat
+#Keadaan 1
 teks= """Media sosial atau disebut juga dengan jejaring sosial, seperti Facebook, Twitter, Instagram, dan masih banyak lagi ternyata tidak hanya digunakan sebagai tempat berkumpul atau berbagi di dunia maya. Namun, media sosial kini juga bisa dimanfaatkan sebagai media untuk mengembangkan sebuah bisnis. Saat ini telah banyak para pengusaha yang beralih ke media sosial dalam memasarkan produk mereka baik barang ataupun jasa. Beralihnya para pelaku bisnis ke media ini dikarenakan jejaring sosial memiliki manfaat yang sangat banyak bagi usaha bisnis. Berikut ini adalah alasan mengapa jejaring sosial bisa menjadi alat promosi yang paling efektif."""
+
+banyaknya_kalimat= teks.count('.')
+banyaknya_kata= len(teks.split())
+print('Banyaknya Kalimat adalah',banyaknya_kalimat)
+print('Banyaknya Kata adalah',banyaknya_kata)
+
+#Keadaan 2
+teks= """Olahraga merupakan aktivitas fisik yang sangat penting bagi kesehatan tubuh manusia. Dengan berolahraga secara teratur tubuh kita akan menjadi lebih bugar dan kuat. Banyak jenis olahraga yang bisa dipilih sesuai dengan minat dan kemampuan masing masing. Sepak bola basket renang dan lari adalah beberapa olahraga yang populer di Indonesia. Olahraga juga terbukti dapat mengurangi stres dan meningkatkan kesehatan mental seseorang. Pemerintah terus mendorong masyarakat untuk aktif berolahraga melalui berbagai program dan fasilitas umum. Mulailah berolahraga dari sekarang karena lebih baik mencegah daripada mengobati penyakit."""
+
+banyaknya_kalimat= teks.count('.')
+banyaknya_kata= len(teks.split())
+print('Banyaknya Kalimat adalah',banyaknya_kalimat)
+print('Banyaknya Kata adalah',banyaknya_kata)
+
+#Keadaan 3
+teks= """Indonesia memiliki kekayaan kuliner tradisional yang sangat beragam dan lezat. . Setiap daerah di Indonesia memiliki makanan khas yang mencerminkan budaya setempat. Rendang dari Sumatera Barat diakui sebagai salah satu makanan terlezat di dunia. Soto gudeg nasi goreng dan gado gado juga merupakan makanan yang sangat terkenal. Makanan tradisional Indonesia menggunakan rempah rempah alami yang kaya manfaat bagi kesehatan. Kita harus melestarikan kuliner tradisional agar tidak punah tergerus oleh makanan modern. Memperkenalkan makanan tradisional kepada generasi muda adalah tanggung jawab kita bersama. Dengan mencintai kuliner lokal kita turut menjaga warisan budaya bangsa Indonesia."""
 
 banyaknya_kalimat= teks.count('.')
 banyaknya_kata= len(teks.split())
