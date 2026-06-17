@@ -67,7 +67,7 @@ print(f"Tanggal lahir: {tanggal} {nama_bulan} {tahun}.")
 
 # Program 4 Menampilkan Tanggal Lahir ASN dari NIP
 #Kondisi 3
-nip =  str(199512152019031006)
+nip =  str(199513152019031006)
 tahun = nip[0:4]
 bulan = int(nip[4:6])
 tanggal = nip[6:8]
