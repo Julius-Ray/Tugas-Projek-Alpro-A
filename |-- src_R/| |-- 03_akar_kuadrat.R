@@ -10,8 +10,8 @@ D<-b^2-4*a*c
 print(D)
 #Logika if-else
 if (D>0){
-  x1<-(-b+sqrt(D)/2*a)
-  x2<-(-b-sqrt(D)/2*a)
+  x1<-(-b+sqrt(D))/(2*a)
+  x2<-(-b-sqrt(D))/(2*a)
   cat(sprintf("x1 = %.3f\n", x1))
   cat(sprintf("x2 = %.3f\n", x2))
 } else if (D==0){
@@ -32,8 +32,8 @@ D<-b^2-4*a*c
 print(D)
 #Logika if-else
 if (D>0){
-  x1<-(-b+sqrt(D)/2*a)
-  x2<-(-b-sqrt(D)/2*a)
+  x1<-(-b+sqrt(D))/(2*a)
+  x2<-(-b-sqrt(D))/(2*a)
   cat(sprintf("x1 = %.3f\n", x1))
   cat(sprintf("x2 = %.3f\n", x2))
 } else if (D==0){
@@ -54,8 +54,8 @@ D<-b^2-4*a*c
 print(D)
 #Logika if-else
 if (D>0){
-  x1<-(-b+sqrt(D)/2*a)
-  x2<-(-b-sqrt(D)/2*a)
+  x1<-(-b+sqrt(D))/(2*a)
+  x2<-(-b-sqrt(D))/(2*a)
   cat(sprintf("x1 = %.3f\n", x1))
   cat(sprintf("x2 = %.3f\n", x2))
 } else if (D==0){
