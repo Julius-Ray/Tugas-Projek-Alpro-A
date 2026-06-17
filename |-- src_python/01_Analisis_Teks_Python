@@ -2,7 +2,11 @@
 #Keadaan 1
 teks= "Anak statistika itu unik, karena di balik angka-angka yang kelihatannya rumit, selalu ada cerita yang bisa dijelaskan. Makanya kami nggak cuma belajar menghitung, tapi juga belajar memahami data. Siapa sangka, data yang kelihatannya biasa aja bisa jadi dasar pengambilan keputusan penting."
 
-banyaknya_kalimat= teks.count('.')
+# Hapus elemen kosong
+kalimat = [k for k in kalimat if k.strip() != ""]
+
+# Menghitung banyaknya kalimat dan banyaknya kata
+banyaknya_kalimat = len(kalimat)
 banyaknya_kata= len(teks.split())
 print('Banyaknya Kalimat adalah',banyaknya_kalimat)
 print('Banyaknya Kata adalah',banyaknya_kata)
@@ -10,7 +14,11 @@ print('Banyaknya Kata adalah',banyaknya_kata)
 #Keadaan 2
 teks= """Olahraga merupakan aktivitas fisik yang sangat penting bagi kesehatan tubuh manusia. Dengan berolahraga secara teratur tubuh kita akan menjadi lebih bugar dan kuat. Banyak jenis olahraga yang bisa dipilih sesuai dengan minat dan kemampuan masing masing. Sepak bola basket renang dan lari adalah beberapa olahraga yang populer di Indonesia. Olahraga juga terbukti dapat mengurangi stres dan meningkatkan kesehatan mental seseorang. Pemerintah terus mendorong masyarakat untuk aktif berolahraga melalui berbagai program dan fasilitas umum. Mulailah berolahraga dari sekarang karena lebih baik mencegah daripada mengobati penyakit."""
 
-banyaknya_kalimat= teks.count('.')
+# Hapus elemen kosong
+kalimat = [k for k in kalimat if k.strip() != ""]
+
+# Menghitung banyaknya kalimat dan banyaknya kata
+banyaknya_kalimat = len(kalimat)
 banyaknya_kata= len(teks.split())
 print('Banyaknya Kalimat adalah',banyaknya_kalimat)
 print('Banyaknya Kata adalah',banyaknya_kata)
@@ -18,7 +26,8 @@ print('Banyaknya Kata adalah',banyaknya_kata)
 #Keadaan 3
 teks= """Indonesia memiliki kekayaan kuliner tradisional yang sangat beragam dan lezat. . Setiap daerah di Indonesia memiliki makanan khas yang mencerminkan budaya setempat. Rendang dari Sumatera Barat diakui sebagai salah satu makanan terlezat di dunia. Soto gudeg nasi goreng dan gado gado juga merupakan makanan yang sangat terkenal. Makanan tradisional Indonesia menggunakan rempah rempah alami yang kaya manfaat bagi kesehatan. Kita harus melestarikan kuliner tradisional agar tidak punah tergerus oleh makanan modern. Memperkenalkan makanan tradisional kepada generasi muda adalah tanggung jawab kita bersama. Dengan mencintai kuliner lokal kita turut menjaga warisan budaya bangsa Indonesia."""
 
-banyaknya_kalimat= teks.count('.')
+# Menghitung banyaknya kalimat dan banyaknya kata
+banyaknya_kalimat = len(kalimat)
 banyaknya_kata= len(teks.split())
 print('Banyaknya Kalimat adalah',banyaknya_kalimat)
 print('Banyaknya Kata adalah',banyaknya_kata)
