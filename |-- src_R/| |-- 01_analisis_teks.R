@@ -2,7 +2,7 @@
 #Keadaan 1
 # Program Menghitung Jumlah Kata dan Kalimat
 # Masukkan teks
-teks <- "Anak statistika itu unik, karena di balik angka-angka yang kelihatannya rumit, selalu ada cerita yang bisa dijelaskan. Makanya kami nggak cuma belajar menghitung, tapi juga belajar memahami data. Siapa sangka, data yang kelihatannya biasa aja bisa jadi dasar pengambilan keputusan penting."
+teks <- "Kehidupan anak statistika tidak jauh dari data, angka, dan berbagai tugas analisis. Setiap hari mereka belajar mengolah data untuk menemukan informasi yang dapat digunakan dalam pengambilan keputusan. Meskipun sering berhadapan dengan perhitungan yang rumit, anak statistika tetap menikmati proses belajar karena ilmu yang dipelajari sangat bermanfaat di berbagai bidang."
 
 # Hitung jumlah kata
 # Pisahkan berdasarkan satu atau lebih spasi
