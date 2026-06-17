@@ -12,7 +12,6 @@ jumlah_kata<-length(kata) #Menghitung jumlah elemen dalam vector kata
 # Hitung jumlah kalimat
 # Pisahkan berdasarkan tanda titik
 kalimat <- strsplit(teks, "\\.") [[1]] #Asumsi tanda titik hanya untuk mengakhiri kalimat
-kalimat<-kalimat[nchar(trimws(kalimat))>0] #hapus elemen kosong
 jumlah_kalimat<-length(kalimat) #Menghitung jumlah elemen dalam vector kalimat
 
 # Tampilkan hasil
@@ -34,7 +33,6 @@ jumlah_kata<-length(kata) #Menghitung jumlah elemen dalam vector kata
 # Hitung jumlah kalimat
 # Pisahkan berdasarkan tanda titik
 kalimat <- strsplit(teks, "\\.") [[1]] #Asumsi tanda titik hanya untuk mengakhiri kalimat
-kalimat<-kalimat[nchar(trimws(kalimat))>0] #hapus elemen kosong
 jumlah_kalimat<-length(kalimat) #Menghitung jumlah elemen dalam vector kalimat
 
 # Tampilkan hasil
@@ -56,7 +54,6 @@ jumlah_kata<-length(kata) #Menghitung jumlah elemen dalam vector kata
 # Hitung jumlah kalimat
 # Pisahkan berdasarkan tanda titik
 kalimat <- strsplit(teks, "\\.") [[1]] #Asumsi tanda titik hanya untuk mengakhiri kalimat
-kalimat<-kalimat[nchar(trimws(kalimat))>0] #hapus elemen kosong
 jumlah_kalimat<-length(kalimat) #Menghitung jumlah elemen dalam vector kalimat
 
 # Tampilkan hasil
