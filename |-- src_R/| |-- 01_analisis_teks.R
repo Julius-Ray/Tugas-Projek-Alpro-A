@@ -2,7 +2,7 @@
 #Keadaan 1
 # Program Menghitung Jumlah Kata dan Kalimat
 # Masukkan teks
-teks <- "Enaknya jadi anak statistika tuh pas orang lain masih debat " "kira-kira nih hasilnya gimana," " kita udah bisa jawab pake angka, confidence interval, dan p-value. Bukan sombong, cuma emang kita dilatih buat nggak nebak-nebak. Ada bedanya antara opini dan kesimpulan berbasis data — dan kita tau itu sejak semester satu."
+teks <- "Anak statistika itu unik, karena di balik angka-angka yang kelihatannya rumit, selalu ada cerita yang bisa dijelaskan. Makanya kami nggak cuma belajar menghitung, tapi juga belajar memahami data. Siapa sangka, data yang kelihatannya biasa aja bisa jadi dasar pengambilan keputusan penting."
 
 # Hitung jumlah kata
 # Pisahkan berdasarkan satu atau lebih spasi
