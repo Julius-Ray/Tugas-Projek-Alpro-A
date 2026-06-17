@@ -80,7 +80,7 @@ cat("Tanggal lahir:",tanggal, nama_bulan, tahun, "\n")
 
 #Keadaan 3
 #Menampilkan tanggal lahir ASN dari NIP
-nip<-199512152019031006
+nip<-199513152019031006
 
 tahun<-substr(nip,1,4)
 bulan<-as.numeric(substr(nip,5,6))
