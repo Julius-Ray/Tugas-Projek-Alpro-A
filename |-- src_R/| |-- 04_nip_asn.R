@@ -1,7 +1,7 @@
 #Project 4
 #Keadaan 1
 #Menampilkan tanggal lahir ASN dari NIP
-nip <- "199904312019031010"
+nip <- "199904212019031010"
 
 #Pengkategorian nip berdasarkan urutan numeric
 if (nchar(nip) != 18) {
